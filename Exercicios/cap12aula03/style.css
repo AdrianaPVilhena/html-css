@@ -1,0 +1,24 @@
+@charset "UTF8";
+
+body{
+    background-color: beige;
+    font-family: serif;
+    font-size: 18px;
+}
+h1{
+    color: chocolate;
+    background-color: blanchedalmond;
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: 2px 2px 2px chocolate;
+
+}
+h2{
+    color: rgb(196, 117, 60);
+    text-decoration: underline;
+    text-align: center;
+}
+p{
+    text-align: justify;
+    color: rgb(255, 78, 14);
+}

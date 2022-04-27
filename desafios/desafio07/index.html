@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+    <style>
+        body{
+            background-color: gainsboro;
+        }
+        h1{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: oblique;
+            text-shadow: 3px 3px 3px gray;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minhas imagens dinâmicas</h1>
+    <picture>
+        <source media="(miax-width:740px )" srcset="imagens/paisagem-p.png" type="image/png">
+        <source media="(max-width:1200px )" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-g.png" alt="imagem flexível">
+    </picture>
+    
+</body>
+</html>
